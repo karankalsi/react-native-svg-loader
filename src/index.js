@@ -179,6 +179,7 @@ const createSVGElement = (node, nonTrimmedChilds, level = 0) => {
   if (node.nodeName === 'svg') {
     componentAtts.width = usePropValue;
     componentAtts.height = usePropValue;
+    componentAtts.fill = usePropValue;
   }
 
   if (['text', 'tspan'].indexOf(node.nodeName) !== -1 && componentAtts.y) {
