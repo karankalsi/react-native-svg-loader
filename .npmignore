@@ -6,7 +6,8 @@ src/module/
 .gitignore
 yarn.lock
 .travis.yml
-
+.github
+.vscode
 src/*.test.js
 src/*.test.jsx
 src/*.spec.js
