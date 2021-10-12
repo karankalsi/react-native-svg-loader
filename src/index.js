@@ -180,6 +180,7 @@ const createSVGElement = (node, nonTrimmedChilds, level = 0) => {
     componentAtts.width = usePropValue;
     componentAtts.height = usePropValue;
     componentAtts.fill = usePropValue;
+    componentAtts.stroke = usePropValue;
   }
 
   if (['text', 'tspan'].indexOf(node.nodeName) !== -1 && componentAtts.y) {
