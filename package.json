@@ -1,6 +1,6 @@
 {
   "name": "@karankalsi/react-native-svg-loader",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Build time parsing for svgs, use any svg in your React Native app in ease",
   "main": "lib/index.js",
   "scripts": {
