@@ -15,8 +15,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/unimonkiez/react-native-svg-loader.git"
+    "url": "git+https://github.com/karankalsi/react-native-svg-loader.git"
   },
+  "publishConfig": {
+     "@karankalsi:registry": "https://npm.pkg.github.com"
+   },
   "keywords": [
     "react",
     "native",
@@ -24,12 +27,12 @@
     "webpack",
     "loader"
   ],
-  "author": "Yuval Saraf",
+  "author": "Karan Kalsi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/unimonkiez/react-native-svg-loader/issues"
+    "url": "https://github.com/karankalsi/react-native-svg-loader/issues"
   },
-  "homepage": "https://github.com/unimonkiez/react-native-svg-loader#readme",
+  "homepage": "https://github.com/karankalsi/react-native-svg-loader#readme",
   "dependencies": {
     "xmldom": "^0.1.27"
   },
