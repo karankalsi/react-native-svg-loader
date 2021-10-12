@@ -17,9 +17,6 @@
     "type": "git",
     "url": "git+https://github.com/karankalsi/react-native-svg-loader.git"
   },
-  "publishConfig": {
-    "@karankalsi:registry": "https://npm.pkg.github.com"
-  },
   "keywords": [
     "react",
     "native",
