@@ -76,7 +76,7 @@ import Svg, {
   Defs,
   Stop
 } from 'react-native-svg';
-import getSvgComponent from 'react-native-svg-loader/lib/get-svg-component';
+import getSvgComponent from '@karankalsi/react-native-svg-loader/lib/get-svg-component';
 
 const SvgRoughComponent = ({ width, height, fill, stroke }) => (
 ${rootSVG}
@@ -112,7 +112,7 @@ ${(!hasChilds) ? `${spaceStr})` : childs.join(',\n')}${(hasChilds) ? `\n${spaceS
       return utils.trimFirstRow(`
 var React = require('react');
 var ReactNativeSvg = require('react-native-svg');
-var getSvgComponent = require('react-native-svg-loader/lib/get-svg-component');
+var getSvgComponent = require('@karankalsi/react-native-svg-loader/lib/get-svg-component');
 
 var Svg = ReactNativeSvg.default;
 var Circle = ReactNativeSvg.Circle;
