@@ -1,5 +1,4 @@
 # react-native-svg-loader
-[![npm version](https://badge.fury.io/js/react-native-svg-loader.svg)](https://badge.fury.io/js/react-native-svg-loader)[![Build Status](https://travis-ci.org/unimonkiez/react-native-svg-loader.svg?branch=master)](https://travis-ci.org/unimonkiez/react-native-svg-loader)
 
 ## Parse your svgs in build time and make them compatible with your react-native app.
 
@@ -42,9 +41,9 @@ module.exports = ({ width, height, fill, stroke }) => (
 ## Usage
 * Install
   ```bash
-  npm install --save-dev react-native-svg-loader
+  npm install --save-dev @karankalsi/react-native-svg-loader
   # or yarn
-  yarn add -D react-native-svg-loader
+  yarn add -D @karankalsi/react-native-svg-loader
   ```
 * Add loader to your `webpack-config`
   ```js
