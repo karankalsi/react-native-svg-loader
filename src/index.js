@@ -42,6 +42,7 @@ const POLYLINE_ATTS = ['points'];
 
 const COMMON_ATTS = [
   'fill',
+  'fillRule',
   'fillOpacity',
   'stroke',
   'strokeWidth',
